@@ -2,30 +2,32 @@
     xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
     xmlns:xhtml="http://www.w3.org/1999/xhtml"
     ><url>
-            <loc>https://www.gpanda.me/zh-cn/categories/</loc><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
+            <loc>https://www.gpanda.me/demo/</loc><lastmod>2022-08-11T20:24:56&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://www.gpanda.me/</loc><lastmod>2022-08-11T20:24:56&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
                         rel="alternate"
                         hreflang="en"
-                        href="https://www.gpanda.me/categories/"
+                        href="https://www.gpanda.me/en/"
                         /><xhtml:link
                     rel="alternate"
                     hreflang="zh-cn"
-                    href="https://www.gpanda.me/zh-cn/categories/"
+                    href="https://www.gpanda.me/"
                     /></url><url>
-            <loc>https://www.gpanda.me/zh-cn/</loc><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
+            <loc>https://www.gpanda.me/posts/</loc><lastmod>2022-08-11T20:24:56&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://www.gpanda.me/categories/</loc><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
                         rel="alternate"
                         hreflang="en"
-                        href="https://www.gpanda.me/"
+                        href="https://www.gpanda.me/en/categories/"
                         /><xhtml:link
                     rel="alternate"
                     hreflang="zh-cn"
-                    href="https://www.gpanda.me/zh-cn/"
+                    href="https://www.gpanda.me/categories/"
                     /></url><url>
-            <loc>https://www.gpanda.me/zh-cn/tags/</loc><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
+            <loc>https://www.gpanda.me/tags/</loc><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
                         rel="alternate"
                         hreflang="en"
-                        href="https://www.gpanda.me/tags/"
+                        href="https://www.gpanda.me/en/tags/"
                         /><xhtml:link
                     rel="alternate"
                     hreflang="zh-cn"
-                    href="https://www.gpanda.me/zh-cn/tags/"
+                    href="https://www.gpanda.me/tags/"
                     /></url></urlset>

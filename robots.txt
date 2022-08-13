@@ -61,4 +61,4 @@ Disallow: /
 User-agent: ZoominfoBot
 Disallow: /
 
-Sitemap: https://www.gpanda.me/sitemap.xml
+Sitemap: https://www.gpanda.me/en/sitemap.xml
