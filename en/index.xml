@@ -1,9 +1,10 @@
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
-        <title>LoveIt</title>
+        <title>GPanda&#39;S Blog</title>
         <link>https://www.gpanda.me/en/</link>
-        <description>天天向上</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
-            <atom:link href="https://www.gpanda.me/en/index.xml" rel="self" type="application/rss+xml" />
-        </channel>
+        <description>Recent content on GPanda&#39;S Blog</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-CN</language><atom:link href="https://www.gpanda.me/en/index.xml" rel="self" type="application/rss+xml" />
+    </channel>
 </rss>

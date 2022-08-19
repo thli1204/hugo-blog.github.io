@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
-        <title>GPanda&#39;S Blog</title>
-        <link>https://www.gpanda.me/</link>
-        <description>Recent content on GPanda&#39;S Blog</description>
+        <title>Pages on GPanda&#39;S Blog</title>
+        <link>https://www.gpanda.me/page/</link>
+        <description>Recent content in Pages on GPanda&#39;S Blog</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-CN</language>
-        <lastBuildDate>Tue, 28 May 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://www.gpanda.me/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Tue, 28 May 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://www.gpanda.me/page/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>Archives</title>
         <link>https://www.gpanda.me/archives/</link>
         <pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate>
