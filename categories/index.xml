@@ -6,7 +6,15 @@
         <description>Recent content in Categories on GPanda&#39;S Blog</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-CN</language>
-        <lastBuildDate>Fri, 15 Apr 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://www.gpanda.me/categories/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Fri, 15 Jul 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://www.gpanda.me/categories/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>算法</title>
+        <link>https://www.gpanda.me/categories/%E7%AE%97%E6%B3%95/</link>
+        <pubDate>Fri, 15 Jul 2022 00:00:00 +0000</pubDate>
+        
+        <guid>https://www.gpanda.me/categories/%E7%AE%97%E6%B3%95/</guid>
+        <description>&lt;img src="https://www.gpanda.me/categories/%E7%AE%97%E6%B3%95/java.jpg" alt="Featured image of post 算法" /&gt;</description>
+        </item>
+        <item>
         <title>Java</title>
         <link>https://www.gpanda.me/categories/java/</link>
         <pubDate>Fri, 15 Apr 2022 00:00:00 +0000</pubDate>
