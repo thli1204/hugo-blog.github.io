@@ -689,7 +689,7 @@ if (!doNotTrack) {
 </span></span></span><span class="line"><span class="cl"><span class="cm">      方式2:使用原子类AtomicInteger
 </span></span></span><span class="line"><span class="cl"><span class="cm">     */</span>
 </span></span><span class="line"><span class="cl">    <span class="c1">//方式1
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span>    <span class="kt">boolean</span> <span class="n">b</span> <span class="o">=</span> <span class="n">ATOMIC_INTEGER_FIELD_UPDATER</span><span class="o">.</span><span class="na">compareAndSet</span><span class="o">(</span><span class="k">this</span><span class="o">,</span> <span class="n">0</span><span class="o">,</span> <span class="n">1</span><span class="o">);</span>
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>    <span class="kt">boolean</span> <span class="n">b</span> <span class="o">=</span> <span class="n">ATOMIC_INTEGER_FIELD_UPDATER</span><span class="o">.</span><span class="na">compareAndSet</span><span class="o">(</span><span class="k">this</span><span class="o">,</span> <span class="mi">0</span><span class="o">,</span> <span class="mi">1</span><span class="o">);</span>
 </span></span><span class="line"><span class="cl">    <span class="c1">//记录抢到锁的线程
 </span></span></span><span class="line"><span class="cl"><span class="c1"></span>    <span class="k">if</span> <span class="o">(</span><span class="n">b</span><span class="o">)</span> <span class="o">{</span>
 </span></span><span class="line"><span class="cl">      <span class="n">ownThread</span> <span class="o">=</span> <span class="n">Thread</span><span class="o">.</span><span class="na">currentThread</span><span class="o">();</span>
@@ -707,8 +707,8 @@ if (!doNotTrack) {
 </span></span><span class="line"><span class="cl">    <span class="c1">//unlock设置status为0,从等待队列中唤醒一个等待线程抢锁
 </span></span></span><span class="line"><span class="cl"><span class="c1"></span>    <span class="c1">//等待队列:1.可以使用链表 2.可以使用线程安全的集合
 </span></span></span><span class="line"><span class="cl"><span class="c1"></span>    <span class="k">if</span> <span class="o">(</span><span class="n">ownThread</span> <span class="o">==</span> <span class="n">Thread</span><span class="o">.</span><span class="na">currentThread</span><span class="o">())</span> <span class="o">{</span>
-</span></span><span class="line"><span class="cl">      <span class="kt">int</span> <span class="n">s</span> <span class="o">=</span> <span class="n">status</span> <span class="o">-</span> <span class="n">1</span><span class="o">;</span>
-</span></span><span class="line"><span class="cl">      <span class="k">if</span> <span class="o">(</span><span class="n">s</span> <span class="o">==</span> <span class="n">0</span><span class="o">)</span> <span class="o">{</span>
+</span></span><span class="line"><span class="cl">      <span class="kt">int</span> <span class="n">s</span> <span class="o">=</span> <span class="n">status</span> <span class="o">-</span> <span class="mi">1</span><span class="o">;</span>
+</span></span><span class="line"><span class="cl">      <span class="k">if</span> <span class="o">(</span><span class="n">s</span> <span class="o">==</span> <span class="mi">0</span><span class="o">)</span> <span class="o">{</span>
 </span></span><span class="line"><span class="cl">        <span class="n">ownThread</span> <span class="o">=</span> <span class="kc">null</span><span class="o">;</span>
 </span></span><span class="line"><span class="cl">      <span class="o">}</span>
 </span></span><span class="line"><span class="cl">      <span class="n">status</span> <span class="o">=</span> <span class="n">s</span><span class="o">;</span>
